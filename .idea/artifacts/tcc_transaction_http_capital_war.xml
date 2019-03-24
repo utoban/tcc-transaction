@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tcc-transaction-http-capital:war">
+    <output-path>$PROJECT_DIR$/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-capital/target</output-path>
+    <root id="archive" name="tcc-transaction-http-capital-1.2.4.24.war">
+      <element id="artifact" artifact-name="tcc-transaction-http-capital:war exploded" />
+    </root>
+  </artifact>
+</component>

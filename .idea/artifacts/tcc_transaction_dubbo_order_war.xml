@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tcc-transaction-dubbo-order:war">
+    <output-path>$PROJECT_DIR$/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-order/target</output-path>
+    <root id="archive" name="tcc-transaction-dubbo-order-1.2.4.24.war">
+      <element id="artifact" artifact-name="tcc-transaction-dubbo-order:war exploded" />
+    </root>
+  </artifact>
+</component>
