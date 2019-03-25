@@ -8,11 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tcc-transaction-api" />
         <module name="tcc-transaction-core" />
-        <module name="tcc-transaction-dubbo" />
-        <module name="tcc-transaction-dubbo-capital" />
         <module name="tcc-transaction-dubbo-capital-api" />
-        <module name="tcc-transaction-dubbo-order" />
-        <module name="tcc-transaction-dubbo-redpacket" />
         <module name="tcc-transaction-dubbo-redpacket-api" />
         <module name="tcc-transaction-http-capital" />
         <module name="tcc-transaction-http-capital-api" />

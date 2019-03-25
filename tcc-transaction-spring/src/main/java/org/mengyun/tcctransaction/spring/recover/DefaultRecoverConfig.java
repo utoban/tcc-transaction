@@ -14,7 +14,7 @@ public class DefaultRecoverConfig implements RecoverConfig {
 
     public static final RecoverConfig INSTANCE = new DefaultRecoverConfig();
 
-    private int maxRetryCount = 30;
+    private int maxRetryCount = 3;
 
     private int recoverDuration = 120; //120 seconds
 

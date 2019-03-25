@@ -35,9 +35,10 @@
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.6" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: io.protostuff:protostuff-api:unknown" level="project" />
-    <orderEntry type="library" name="Maven: io.protostuff:protostuff-core:unknown" level="project" />
-    <orderEntry type="library" name="Maven: io.protostuff:protostuff-runtime:unknown" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-api:1.6.0" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-core:1.6.0" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-runtime:1.6.0" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-collectionschema:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.29" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.33" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />

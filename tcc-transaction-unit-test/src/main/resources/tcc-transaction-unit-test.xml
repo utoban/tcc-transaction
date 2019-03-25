@@ -26,7 +26,7 @@
     <bean id="tccDataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://mysql.dev.com:40004/TCC"/>
+        <property name="url" value="jdbc:mysql://mysql.d1:40004/TCC"/>
         <property name="username" value="test"/>
         <property name="password" value="test@123"/>
     </bean>

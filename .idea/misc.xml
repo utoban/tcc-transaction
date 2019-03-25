@@ -16,6 +16,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/tcc-transaction-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-capital/pom.xml" />
+        <option value="$PROJECT_DIR$/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-order/pom.xml" />
+        <option value="$PROJECT_DIR$/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-redpacket/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.7.0.80_x64" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />

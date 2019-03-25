@@ -43,15 +43,17 @@ public class PlaceOrderServiceImpl {
             //exception throws with the tcc transaction status is CONFIRMING,
             //when tcc transaction is confirming status,
             // the tcc transaction recovery will try to confirm the whole transaction to ensure eventually consistent.
-
+            System.out.println("订单支付成功...");
             result = true;
         } catch (CancellingException cancellingException) {
             //exception throws with the tcc transaction status is CANCELLING,
             //when tcc transaction is under CANCELLING status,
             // the tcc transaction recovery will try to cancel the whole transaction to ensure eventually consistent.
+            System.out.println("订单支付失败...");
         } catch (Throwable e) {
             //other exceptions throws at TRYING stage.
             //you can retry or cancel the operation.
+
             e.printStackTrace();
         }
 

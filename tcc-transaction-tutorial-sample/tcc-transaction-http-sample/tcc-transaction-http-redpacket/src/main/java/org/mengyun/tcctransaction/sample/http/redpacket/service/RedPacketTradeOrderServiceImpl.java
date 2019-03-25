@@ -39,7 +39,7 @@ public class RedPacketTradeOrderServiceImpl implements RedPacketTradeOrderServic
         }
 
         System.out.println("red packet try record called. time seq:" + DateFormatUtils.format(Calendar.getInstance(), "yyyy-MM-dd HH:mm:ss"));
-
+        //System.out.println(1/0);
         TradeOrder foundTradeOrder = tradeOrderRepository.findByMerchantOrderNo(tradeOrderDto.getMerchantOrderNo());
 
         //check if the trade order has need recorded.
@@ -89,7 +89,7 @@ public class RedPacketTradeOrderServiceImpl implements RedPacketTradeOrderServic
             RedPacketAccount transferToAccount = redPacketAccountRepository.findByUserId(tradeOrderDto.getOppositeUserId());
 
             transferToAccount.transferTo(tradeOrderDto.getAmount());
-
+            System.out.println(1/0);
             redPacketAccountRepository.save(transferToAccount);
         }
     }
